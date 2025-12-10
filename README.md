@@ -301,7 +301,7 @@ Note: Both `cmake --build` and `ctest` accepts a `-j N` argument for distributin
 
 ### Running CI workflows locally
 
-*   Install [circleci-cli](https://circleci.com/docs/2.0/local-cli/) (you'll need an API key)
+*   Install [circleci-cli](https://circleci.com/docs/guides/toolkit/local-cli/) (you'll need an API key)
 
     *Note*: we also use GitHub Workflows, but only to run tests on Windows (which we cross-build for in the Linux-based CircleCI workflows below). Also, [act](https://github.com/nektos/act) doesn't like our submodule setup anyway.
 
